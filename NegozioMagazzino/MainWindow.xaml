@@ -1,0 +1,19 @@
+﻿<Window x:Class="NegozioMagazzino.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NegozioMagazzino"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TxtProdotto" HorizontalAlignment="Left" Height="95" Margin="150,165,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;&#xD;&#xA;" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtPrezzo" HorizontalAlignment="Left" Height="95" Margin="350,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Prodotto" HorizontalAlignment="Left" Margin="150,80,0,0" VerticalAlignment="Top" Width="120" Height="53" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Prezzo" HorizontalAlignment="Left" Margin="350,80,0,0" VerticalAlignment="Top" Width="120" Height="53" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="BtnAggiungi" Content="Carica" HorizontalAlignment="Left" Margin="555,45,0,0" VerticalAlignment="Top" Width="150" FontWeight="Bold" FontSize="16" Click="BtnAggiungi_Click"/>
+        <ListBox x:Name="LstOggetti" HorizontalAlignment="Left" Height="170" Margin="555,165,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="BtnVedi" Content="Vedi" HorizontalAlignment="Left" Height="28" Margin="555,105,0,0" VerticalAlignment="Top" Width="150" FontSize="16" FontWeight="Bold" Click="BtnVedi_Click"/>
+
+    </Grid>
+</Window>
